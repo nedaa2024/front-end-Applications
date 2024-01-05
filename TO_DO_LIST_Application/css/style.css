@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira sans', sans-serif;
+}
+
+
+.all-sections{ 
+    background-color: #abacae; 
+    width: 100%;
+    height: 100vh;}
+
+.container {
+    
+    padding-top: 160px;
+}
+
+input {
+    width: 151px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #e8f1f2;
+    color: black;
+    border: navajowhite;
+}
+
+input #deadline {
+    width: 15%;
+}
+
+button.main {
+    height: 33px;
+    width: 80px;
+    border-radius: 8px;
+    color: wheat;
+    font-weight: bolder;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #0a6050;
+}
+
+
+
+input:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+label {
+    margin-right: 17px;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    transition: transform .2s;
+    width: 18px;
+    margin: 17px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 55px;
+    text-align: center;
+}
+
+th {
+    width: 175px;
+    text-align: center;
+}
+
+td {
+    width: 126px;
+    text-align: center;
+    /* border-radius: 5px; */
+}
+
+th,
+td {
+    border-bottom: 20px solid #abacae;
+    border-radius: 5px;
+}
+
+tr {
+    background-color: #258d6a8f;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    transform: scale(1.5);
+    border-bottom: solid 2px red;
+    color: red;
+}
+
+.update:hover {
+    transform: scale(1.5);
+}
+
+
+div#deleteall {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input#deadline {
+    width: 100px;
+    color: black;
+}
+
+.input_field {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+button.delalll {
+    height: 40px;
+    width: 200px;
+    border-radius: 17px;
+    background-color: #ff0000a3;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.out-list {
+    margin-bottom: 23px;
+    text-align: center;
+    padding: 0 49px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: -61px;
+}
+
+.main{color: black;}
+
+.msg {
+    margin-left: 123px;
+    font-size: small;
+}
+
+div#msg {
+    font-size: small;
+    color: red;
+    /* font-size: medium; */
+    margin-left: 126px;
+}
+
+
+div#msg2 {
+    font-size: small;
+    color: red;
+    /* font-size: medium; */
+    margin-left: 84px;
+}
+
+@media only screen and (max-width: 763px) 
+{
+
+button.main {
+        height: 33px;
+        width: 75px;
+    
+    }
+        label {
+            font-size: 16px;
+            
+        }
+        input {
+            width: 145px;
+         
+        }
+}
+
+@media only screen and (max-width: 524px)
+{
+    input {
+            width: 70px;
+        }
+                .input_field {
+                    height: 110px;
+                    display: flex;
+                    justify-content: center;
+                     padding: 30px;                }
+                .one{
+                    width: 230px;
+
+                }
+                .two
+                {
+                    width: 230px;
+                }
+                                button.main {
+                                    height: 30px;
+                                    width: 60px;
+                
+                                }
+                                                                input#deadline {
+                                                                    width: 70px;
+                                                                }
+}
