@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input.r {
+    color: cornsilk;
+}
+
+body {
+    background-image: url(../images/pexels-mo-eid-9829615.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* backdrop-filter: invert(124); */
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 19px;
+    font-style: initial;
+    color: #ffffff;
+}
+
+.c1 {
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    background-color: rgb(88 56 66/90%);
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    box-shadow: 0 0 10px 4px #191616;
+}
+
+form .b {
+    width: 98.5%;
+    height: 2.3em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+textarea {
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 18px;
+}
+
+
+
+.button {
+    height: 3em;
+    text-align: center;
+    background-color: #feb79d;
+    color: #583b3b;
+    border-radius: 21px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 216px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 3px solid #aa676d;
+    border: 3px solid #aa676d;
+    box-shadow: 0 0 0 1px #aa676d;
+    color: white;
+}
+
+label {
+    font-size: larger;
+    color: cornsilk;
+}
+
+h3 {
+    font-style: initial;
+}
+
+span {
+    color: cornsilk;
+
+}
